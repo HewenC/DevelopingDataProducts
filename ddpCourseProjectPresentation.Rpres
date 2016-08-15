@@ -1,0 +1,32 @@
+Iris Data Presentation
+========================================================
+author: Hewen Chen
+date: `r date()`
+autosize: true
+
+Overview
+========================================================
+transition: rotate
+
+This was built as part of a deliverable for the course Developing Data Products as part of the Coursera Data Science Specialization.
+
+Iris Dataset
+========================================================
+Let has a look on the Iris data summary
+
+```{r, echo= FALSE}
+summary(iris)
+```
+
+Slide With Plot
+========================================================
+
+```{r, echo=FALSE}
+plot(iris)
+```
+
+Iris Data Structure
+=========
+```{r, echo=TRUE}
+ str(iris)
+```
